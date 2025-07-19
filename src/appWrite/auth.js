@@ -32,7 +32,7 @@ export class AuthService{
             throw e;
         }
     }
-    async getCurrUSer(){
+    async getCurrUser(){
         try{
             const user = await this.account.get();
             return user;
@@ -52,4 +52,4 @@ export class AuthService{
 }
 
 const authService = new AuthService();
-export default authService();
+export {authService}
