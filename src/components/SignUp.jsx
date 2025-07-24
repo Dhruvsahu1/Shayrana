@@ -34,10 +34,10 @@ function SignUp() {
       >
         <div className="mb-2 flex justify-center">
           <span className="inline-block w-full max-w-[100px">
-            <h1 className="w-full">Shayrana</h1>
+            <h1 className="w-full text-3xl font-bold text-center loading-tight text-gray-500">Shayrana</h1>
           </span>
         </div>
-        <h2 className="text-center text-2xl font-bold loading-tight">
+        <h2 className="text-center text-2xl font-bold text-gray-600 loading-tight">
           Sign Up to create your account
         </h2>
         <p className="mt-2 text-center text-base text-black/60">
